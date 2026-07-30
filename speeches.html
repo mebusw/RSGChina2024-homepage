@@ -15,7 +15,28 @@
     <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
-    <style></style>
+    <style>
+        #markdown1 table {
+            width: 100%;
+            table-layout: fixed;
+            border-collapse: collapse;
+            margin-bottom: 1rem;
+        }
+        #markdown1 th,
+        #markdown1 td {
+            padding: 0.5rem;
+            border: 1px solid #dee2e6;
+            vertical-align: top;
+            white-space: normal;
+            word-break: break-all;
+            overflow-wrap: anywhere;
+        }
+        #markdown1 th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+            text-align: left;
+        }
+    </style>
 </head>
 
 <body>
@@ -61,6 +82,35 @@
 
     <div class="container py-4">
         <h2 class="text-center">活动日程</h2>
+        <div id="markdown1" style="width: 100%; max-width: 800px; margin: 0 auto;"></div>
+        <script id="markdown1-raw">| 9月12日 时间 | 主会场 | AI 时代的企业敏捷实战 | 企业 AI 智能落地 | 国际视野看 AI/敏捷落地 |
+| --- | --- | --- | --- | --- |
+| 08:00 - 09:00 | 签到 | — | — | — |
+| 09:00 - 09:10 | 主持开场 | — | — | — |
+| 09:10 - 09:45 | 《从老师傅的手，到 AI 陪练的脑子——AI-ready 重塑制造业经验传承产品化》 申导（国际Scrum联盟CST最高级认证敏捷教练·华人之光 / AI 驾驭工程专家、教育智能体创始人 / 腾讯云TVP、AI 雪鸟会发起人） | — | — | — |
+| 9:45 - 10:20 | 大赞助商 | — | — | — |
+| 10:20 - 10:45 | 合影 & 茶歇 | — | — | — |
+| 10:45 - 11:20 | 《协调成本归零之后——分布式"10 倍工程师"时代，研发组织的重构》 张路宇（Dify 创始人 / CEO，GitHub 超 14 万 Star；前腾讯产品经理） | — | — | — |
+| 11:20 - 11:55 | 《敏捷已死？还是有机会真正活出敏捷性？——AI 对组织发出的一连串灵魂追问 prompts》 Bill Li（大中华区敏捷导师第一人 / 优普丰 AI 敏捷创新咨询创始人、总裁） | — | — | — |
+| 12:00 - 13:30 | 午餐 & 午休 | — | — | — |
+| 13:30 - 14:15 | — | 《AI 组织转型》 李宜函博士（南京卓欧信息 COO，前混沌大学组织变革） | 《AI 落地的终极拼图——类脑智能分身》 蔡炎松（上海羲悉智能创始人、CTO；入选中国"国千"领军人才；曾任华为 2012 实验室类脑计算组算法首席专家） | 《AI 原生敏捷：为快速智能体式产品交付而重生》 William Li（Costco 开市客全球首席 AI 工程师；曾任职 Google、Microsoft、Walmart；兼任 UC Berkeley 信息与数据科学硕士项目 AI 方向毕业论文顾问） |
+| 14:15 - 15:00 | — | 《打造灯塔工厂里的敏捷基因——当"AI"遇见"敏捷迭代"》 Kevin Qi（德莎大中华区 DIT 高级架构师，灯塔工厂重点用例负责人）& Nicole Qian（德莎大中华区数字化人才发展项目负责人） | 《Harness 新范式：建模驱动开发》 曹偲（TocoAI 创始人、CEO，前网易云音乐 CTO） | 《少子化逼出的 AI 转型：一家 1000 人教育出版公司的敏捷突围实战》 Roger（台湾唯一 Scrum Alliance CST，亚洲首位 PgMP 认证者，Scrum Alliance 全球董事会董事） |
+| 15:00 - 15:20 | 茶歇 | — | — | — |
+| 16:05 - 16:50 | — | 《敏捷 + AI，如何极致提升工作效能》 曹希（东风汽车金融市场部总监） | 《企业 AI 落地的真实路径：来自一线项目的实践观察》 眭阳（万物数智创始人、腾讯云 TVP，素问智能合伙人、悠络客前联合创始人） | 《AI + BLM 业务领先模型重塑战略规划到落地的效率》 Jason Zhang（CIO 及供应链运营专家；上海交通大学计算机应用博士；曾任职 IBM、Accenture、Baxter、Coca-Cola 等世界 500 强） |
+| 16:50 - 17:35 | — | 《AI 来了，敏捷怎么玩？——LeSS 规模化敏捷 + 绿色项目管理，让企业跑得更快、更聪明、更可持续》 文吉（某大型港股上市公司组织级敏捷项目管理专家） | 《传统制造企业 AI 知识服务体系建设实践与思考》 孙雅宾（清图数据项目总监） | 《AI 分形红利——敏捷开发的四层增长密码》 徐宇青（阿里湖畔学院特聘讲师 / 字节跳动巨量学认证讲师 / 启迪问智联合创始人&首席战略专家 / AI 智能体开发和应用联盟理事长） |
+
+---
+
+| 9月13日 时间 | Workshop 1 | Workshop 2 | Workshop 3 |
+| --- | --- | --- | --- |
+| 09:00 - 09:30 | 雪鸟会 - Open Space（熊节 / 申导 / 徐昊 / 庄表伟 / 宁波软协嘉宾 / Bill Li） | — | — |
+| 09:30 - 09:40 | 企业参评颁奖 | — | — |
+| 09:40 - 10:00 | 休息 | — | — |
+| 10:00 - 11:00 | 工作坊 1：《做 AI 指挥官：赋予新角色，引领而非恐慌》 单冰（资深项目治理专家 / AI 项目落地陪跑教练 / 职业成长教练） | 工作坊 2：《从"控场"到"共振"：Scrum Master 的另一种能力》 戴清波 Martha（RSG 社区忠实活跃 fans，Scrum Master，流瑜伽导师认证颂钵疗愈师） | Dify workshop |
+| 11:00 - 12:00 | 工作坊 3：iris & ivy | 工作坊 4：《AI 原生组织中，人类的价值是什么》 罗涛（前用友集团开发管理部总经理，国内首位 CTC + MCC 双认证）& Andy（资深敏捷教练） | — |
+| 12:00 - 13:30 | 午餐 & 午休 | — | — | — |
+| 下午 | 培训 - Bill Li | — | — |
+        </script>        
     </div>
 
     <footer class="container-fluid">
@@ -138,11 +188,6 @@
     <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
     <script>
         document.getElementById('markdown1').innerHTML = marked.parse(document.getElementById('markdown1-raw').innerHTML);
-        document.getElementById('markdown2').innerHTML = marked.parse(document.getElementById('markdown2-raw').innerHTML);
-        document.getElementById('markdown3').innerHTML = marked.parse(document.getElementById('markdown3-raw').innerHTML);
-        document.getElementById('markdown4').innerHTML = marked.parse(document.getElementById('markdown4-raw').innerHTML);
-        document.getElementById('markdown5').innerHTML = marked.parse(document.getElementById('markdown5-raw').innerHTML);
-        document.getElementById('markdown6').innerHTML = marked.parse(document.getElementById('markdown6-raw').innerHTML);
     </script>
 </body>
 
